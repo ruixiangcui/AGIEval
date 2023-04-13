@@ -1,5 +1,5 @@
 # AGIEval
-This repository contains information about AGIEval, data, and code of baseline systems for the benchmark.
+This repository contains information about AGIEval, data, code and output of baseline systems for the benchmark.
 
 # Introduction
 AGIEval is a human-centric benchmark specifically designed to evaluate the general abilities of foundation models in tasks pertinent to human cognition and problem-solving. 
@@ -9,7 +9,7 @@ For a full description of the benchmark, please refer to our [paper](url).
 # Tasks and Data
 
 AGIEval v1.0 contains 20 tasks, including two cloze tasks (Gaokao-Math-Cloze and MATH) and 18 multi-choice question answering tasks (the rest). Among the multi-choice question answering tasks, Gaokao-physics and JEC-QA have one or more answers, and the other tasks only have one answer. You can find the full list of tasks in the table below.
-![The datasets used in AGIEVal](agieval_tasks.png)
+![The datasets used in AGIEVal](AGIEval_tasks.png)
 
 You can download all post-processed data but JEC-QA in the [data/v1](data/v1) folder. For JEC-QA, please refer to the [JEC-QA website](https://jecqa.thunlp.org/) to request the data. We use the first 1,000 instances of JEC-QA training data as the test set. 
 
@@ -29,7 +29,7 @@ The data format for all datasets is as follows:
 ```
 The `passage` field is available for gaokao-chinese, gaokao-english, both of logiqa, all of LSAT, and SAT. The answer for multi-choice tasks is saved in the `label` field. The answer for cloze tasks is saved in the `answer` field. 
 
-We provide the prompts for few-shot learning in the [data/v1/few_shot_prompts](data/v1/few_shot_prompts.csv) file.
+We provide the prompts for few-shot learning in the [data/v1/few_shot_prompts](data/few_shot_prompts.csv) file.
 # Baseline Systems
 We evaluate the performance of the baseline systems on AGIEval v1.0. The baseline systems are based on the following models: text-davinci-003, ChatGPT (gpt-3.5-turbo), and GPT-4.
 You can replicate the results by following the steps below:
