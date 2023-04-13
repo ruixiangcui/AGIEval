@@ -37,7 +37,7 @@ You can replicate the results by following the steps below:
 2. run the [run_prediction.py](run_prediction.py) file to get the results.
 
 # Model Outputs
-You can download the zero-shot, zero-shot-Chain-of-Thought, few-shot and few-shot-Chain-of-Thought outputs of the baseline systems in the [Onedrive](outputs) link. 
+You can download the zero-shot, zero-shot-Chain-of-Thought, few-shot and few-shot-Chain-of-Thought outputs of the baseline systems in the [Onedrive](https://1drv.ms/u/s!Amt8n9AJEyxcg8YQKFm1rSEyV9GU_A?e=VEfJVS) link. 
 
 # Evaluation
 You can run the [post_process_and_evaluation.py](post_process_and_evaluation.py) file to get the evaluation results.
