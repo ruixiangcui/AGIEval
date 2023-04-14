@@ -4,7 +4,8 @@ This repository contains information about AGIEval, data, code and output of bas
 # Introduction
 AGIEval is a human-centric benchmark specifically designed to evaluate the general abilities of foundation models in tasks pertinent to human cognition and problem-solving. 
 This benchmark is derived from 20 official, public, and high-standard admission and qualification exams intended for general human test-takers, such as general college admission tests (e.g., Chinese College Entrance Exam (Gaokao) and American SAT), law school admission tests, math competitions, lawyer qualification tests, and national civil service exams. 
-For a full description of the benchmark, please refer to our [paper](url).
+For a full description of the benchmark, please refer to our paper: [AGIEval: A Human-Centric Benchmark for
+Evaluating Foundation Models](https://arxiv.org/pdf/2304.06364.pdf).
 
 # Tasks and Data
 
@@ -45,6 +46,14 @@ You can run the [post_process_and_evaluation.py](post_process_and_evaluation.py)
 # Citation
 If you use AGIEval dataset or the code in your research, please cite our paper:
 ```
+@misc{zhong2023agieval,
+      title={AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models}, 
+      author={Wanjun Zhong and Ruixiang Cui and Yiduo Guo and Yaobo Liang and Shuai Lu and Yanlin Wang and Amin Saied and Weizhu Chen and Nan Duan},
+      year={2023},
+      eprint={2304.06364},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 Please make sure to cite all the individual datasets in your paper when you use them. We provide the relevant citation information below:
 ```
