@@ -167,7 +167,7 @@ def parse_math_answer(setting_name, raw_string):
 def parse_qa_multiple_answer(string, setting_name):
     if setting_name == "few-shot-CoT":
         string = extract_last_line(string)
-    pattern = "\(*([A-Z])\)*"
+    pattern = "\(*([A-F])\)*"
     match = re.findall(pattern, string)
     if match:
         return match

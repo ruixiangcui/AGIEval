@@ -212,7 +212,7 @@ def convert_few_shot(line, dataset_name, demo, n_shot, chat_mode=False):
             {"role": "user", "content": question_input},
         ]
     else:
-        return demo + question
+        return demo + question_input
 
 def load_dataset(dataset_name, setting_name, parent_path, prompt_path=None, max_tokens=None, end_of_example="\n",
                  chat_mode=False, verbose=False):
