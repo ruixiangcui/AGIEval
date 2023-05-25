@@ -1,5 +1,7 @@
-import json
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT license.
 
+import json
 import pandas as pd
 import tiktoken
 from src.constructions import ChatGPTSchema, ResultsForHumanSchema

@@ -1,4 +1,6 @@
-import json
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT license.
+
 import re
 from src import dataset_loader
 

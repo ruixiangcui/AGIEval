@@ -1,7 +1,8 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT license.
+
 from src import dataset_loader
 from src.math_equivalence import is_equiv
-from src import utils
-
 
 def convert_to_set(item):
     if isinstance(item, list):
@@ -23,22 +24,4 @@ def evaluate_single_sample(dataset_name, prediction, label):
     else:
         return prediction == label
 
-
-# def evaluate(dataset_name, prediction_list, label_list):
-#     correct = 0
-#     if dataset_name in multi_choice_datasets:
-#         for prediction, label in zip(prediction_list, label_list):
-#             p = convert_to_set(prediction)
-#             l = convert_to_set(label)
-#             if p == l:
-#                 correct += 1
-#     elif dataset_name in math_output_datasets:
-#         for prediction, label in zip(prediction_list, label_list):
-#             if is_equiv(prediction, label):
-#                 correct += 1
-#     else:
-#         for prediction, label in zip(prediction_list, label_list):
-#             if prediction == label:
-#                 correct += 1
-#     return "{0:.2%}".format(correct / len(label_list))
 

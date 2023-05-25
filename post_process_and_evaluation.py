@@ -1,4 +1,6 @@
-from src.constructions import ResultsForHumanSchema
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT license.
+
 from src import post_process, utils, dataset_loader
 from src import evaluation
 import os

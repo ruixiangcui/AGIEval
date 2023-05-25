@@ -1,6 +1,8 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT license.
+
 import openai_api
 from src import utils, dataset_loader
-
 import os
 import openai
 

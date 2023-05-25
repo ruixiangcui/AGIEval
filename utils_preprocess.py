@@ -1,4 +1,6 @@
-#%%
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT license.
+
 import json
 import os
 from scripts.constructions import TaskSchema

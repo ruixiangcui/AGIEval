@@ -1,5 +1,7 @@
-import pandas as pd
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT license.
 
+import pandas as pd
 
 class TaskSchema(object):
     def __init__(self, passage=None, question=None, options=None, label=None, answer=None, other=None):
