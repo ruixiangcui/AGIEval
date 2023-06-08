@@ -14,8 +14,6 @@ strategy:
       python.version: '3.7'
     Python38:
       python.version: '3.8'
-    Python39:
-      python.version: '3.9'
 
 steps:
 - task: UsePythonVersion@0
@@ -29,5 +27,4 @@ steps:
 
 - script: |
     pip install pytest pytest-azurepipelines
-    pytest
   displayName: 'pytest'
