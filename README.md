@@ -12,7 +12,7 @@ Evaluating Foundation Models](https://arxiv.org/pdf/2304.06364.pdf).
 AGIEval v1.0 contains 20 tasks, including two cloze tasks (Gaokao-Math-Cloze and MATH) and 18 multi-choice question answering tasks (the rest). Among the multi-choice question answering tasks, Gaokao-physics and JEC-QA have one or more answers, and the other tasks only have one answer. You can find the full list of tasks in the table below.
 ![The datasets used in AGIEVal](AGIEval_tasks.png)
 
-You can download all post-processed data but JEC-QA in the [data/v1](data/v1) folder. For JEC-QA, please refer to the [JEC-QA website](https://jecqa.thunlp.org/) to request the data. We use the first 1,000 instances of JEC-QA training data as the test set. 
+You can download all post-processed data in the [data/v1](data/v1) folder. All usage of the data should follow the license of the original datasets. We provide the citation information of the original datasets in the Citation section below. 
 
 The data format for all datasets is as follows:
 ```
